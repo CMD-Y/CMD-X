@@ -350,22 +350,22 @@ mt.__namecall = newcclosure(function(self, ...)
 	return namecall(self, ...)
 end)
 setreadonly(mt, true)--]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Version",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/main/Version",true))()
 if Current and Current.Version ~= ver then
-	Stand("CMD-X is not up to par!","CMD-X cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
+	Stand("CMD-Y is not up to par!","CMD-Y cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
 	while not RunDude do
 		wait()
 	end
 end
 
 if isfile then
-	if not isfile("CMD-X.lua") then
+	if not isfile("CMD-Y.lua") then
 		Stand("Looks like you're new here!","To view commands, use .commands","You can use different stuff like .hotkeys and .plugins for add-ons.","","Join the discord if you need any help using the script, false tickets will result in a ban.","Okay",true)
 		repeat wait() until RunDude == true
 	end
 end
 
---Stand("IMPORTANT","CMD-X's server got deleted by discord. F","Join the new one at:",cordCode,"","I joined!",true)
+--Stand("IMPORTANT","CMD-Y's server got deleted by discord. F","Join the new one at:",cordCode,"","I joined!",true)
 --repeat wait() until RunDude == true
 
 -- Variables: ------------------------|
@@ -380,119 +380,42 @@ local Mouses = cmdlp:GetMouse()
 cmdm = Mouses
 -- we dont have this many owners just alts
 local Devs = {
-	["progamer421minus1"] = "Owner",
-	["octoberboy68plus1"] = "Owner",
-	["pigeoncult"] = "Owner",
-	["knifemarks"] = "Owner",
-	["CMD_X"] = "Owner",
-	["swagcoolboy41"] = "Dev",
-	["4444445678102"] = "Owner",
+	["DAMAGlNG"] = "Owner",
+	["ErroredSyntax"] = "Owner",
+	["MarquisRackzzz"] = "Owner",
+	["ElijahThaFork"] = "Owner",
+	["DakRackzzz"] = "Owner",
+	["zookng"] = "Owner",
 }
 
 DevCords = {
-	"pigeon#8951";
-	"fini#7057";
-	"Curvn#2002";
+	"nathan#7000";
+	"Syntax#1337";
+	"groud#4612";
 }
 
 local Donors = {
-	["8avu"] = "1",
-	["0ccoy"] = "1",
-	["Zuhqu"] = "1",
-	["NitoOV"] = "1",
-	["LtsDank"] = "1",
-	["614SHAD"] = "1",
-	["tyswrld"] = "1",
-	["teejay6x"] = "1",
-	["Yarhibol"] = "1",
-	["Schewpid"] = "1",
-	["goresyard"] = "1",
-	["HyperLink3"] = "1",
-	["OFFTheBatter"] = "1",
-	["DisturbedCult"] = "1",
-	["hellavzn"] = "1",
-	["DAMAGlNG"] = "1",
-	["Zukkoe"] = "1",
-	["Missingno74"] = "1",
-	["HelIaSketchers"] = "1",
-	["amazinggeorgedude"] = "1",
-	["TheBlankProdigy"] = "1",
-	["cxpoxxo"] = "1",
-	["Everdurings"] = "1",
-	["M3tamophosis"] = "1",
-	["vurghen"] = "1",
+	["test"] = "1",
 
-	["8dqt"] = "2",
-	["skrask"] = "2",
-	["xniped"] = "2",
-	["KinggSeaa"] = "2",
-	["ClydeGrant"] = "2",
-	["Fxalling_Love"] = "2",
-	["emovert"] = "2",
-	["shifde"] = "2",
-	["RusskiSlavv"] = "2",
+	["test"] = "2",
+
 	
-	["fusionwhy"] = "Custom1",
-	["InternetSpeeds"] = "Custom2",
-	["TheChosenOne123"] = "Custom3",
-	["Irritatory"] = "Custom4",
-	["DuBz_Bubby"] = "Custom5", -- top donor {$200}
-	["YanniLove"] = "Custom6",
-	["manufacturedlife"] = "Custom7",
+	["test"] = "Custom1",
 
 }
 
 local Tier = {
 	["1"] = {
-		Tag = "Donor of CMD-X",
+		Tag = "Donor of CMD-Y",
 		Color = Color3.fromRGB(255,70,70),
 		SCHAT = "DONOR"
 	},
-	["2"] = {
-		Tag = "Donor of CMD-X",
-		Color = Color3.fromRGB(255,215,100),
-		SCHAT = "DONOR"
-	},
-	["Custom1"] = {
-		Tag = "Administrator",
-		Color = Color3.fromRGB(209,156,240),
-		SCHAT = "ADMINISTRATOR"
-	},
-	["Custom2"] = {
-		Tag = "Infernal",
-		Color = Color3.fromRGB(170, 1, 20),
-		SCHAT = "INFERNAL"
-	},
-	["Custom3"] = {
-		Tag = "The Chosen",
-		Color = Color3.fromRGB(63, 0, 0),
-		SCHAT = "THE CHOSEN"
-	},
-	["Custom4"] = {
-		Tag = "Ex-Top Donor",
-		Color = Color3.fromRGB(255,0,255),
-		SCHAT = "EX-TOP"
-	},
-	["Custom5"] = {
-		Tag = "DuBz_Bubby",
-		Color = "RGBDev",
-		SCHAT = "TOP DONOR"
-	},
-	["Custom6"] = {
-		Tag = "Classy Cute",
-		Color = Color3.fromRGB(252,144,3),
-		SCHAT = "SUGAR DADDY"
-	},
-	["Custom7"] = {
-	    Tag = "Duck",
-	    Color = Color3.fromRGB(0,255,255),
-	    SCHAT = "DUCK",
-	},
+
 }
 
 if isfolder and makefolder and isfile and writefile then
-	if not isfolder("CMD-X Plugins") then makefolder("CMD-X Plugins") end
-	if not isfile("CMD-X Plugins/template.lua") then writefile("CMD-X Plugins/template.lua","print('test')") end
+	if not isfolder("CMD-Y Plugins") then makefolder("CMD-Y Plugins") end
+	if not isfile("CMD-Y Plugins/template.lua") then writefile("CMD-Y Plugins/template.lua","print('test')") end
 end
 
 function loaddefaults()
@@ -505,7 +428,7 @@ function loaddefaults()
     hotkeyesp = ''
     hotkeyaimbot = ''
     prefix = '.'
-    prompt = 'CMD-X Prompt >'
+    prompt = 'CMD-Y FE >'
     enterCMD = {}
     gotoPos = 0
     gotoPosSide = 0
@@ -536,7 +459,7 @@ function loaddefaults()
     ChatBind = false
     CMDTab = {"commands","credits","plugin","changestyle","hotkeys","entercmds","support","",""}
     TabsOff = true
-    KeepCMDXOn = false
+    KeepcmdyOn = false
     ifKickedAuto = false
     whyIs = 0
     combos = {}
@@ -585,17 +508,17 @@ function updatesaves()
 		ChatBind = ChatBind;
 		CMDTab = CMDTab;
 		TabsOff = TabsOff;
-		KeepCMDXOn = KeepCMDXOn;
+		KeepcmdyOn = KeepcmdyOn;
 		ifKickedAuto = ifKickedAuto;
 		whyIs = whyIs;
 		drawingtype = drawingtype;
 	}
-	writefile("CMD-X.lua", game:GetService("HttpService"):JSONEncode(update))
+	writefile("CMD-Y.lua", game:GetService("HttpService"):JSONEncode(update))
 end
 
 function loadsaves()
     local success, errorsend = pcall(function()
-        saves = game:GetService("HttpService"):JSONDecode(readfile("CMD-X.lua"))
+        saves = game:GetService("HttpService"):JSONDecode(readfile("CMD-Y.lua"))
     end)
     if not success then
         loaddefaults()
@@ -642,7 +565,7 @@ function loadsaves()
     ChatBind = saves.ChatBind
     CMDTab = saves.CMDTab
     TabsOff = saves.TabsOff
-    KeepCMDXOn = saves.KeepCMDXOn
+    KeepcmdyOn = saves.KeepcmdyOn
     ifKickedAuto = saves.ifKickedAuto
     whyIs = saves.whyIs
     combos = saves.combos
@@ -807,7 +730,7 @@ if AntiCheat.HideParentInExploit then
 		getParet = get_hidden_gui
 		Unnamed.Parent = get_hidden_gui()
 	else
-		Stand("Your exploit does not support syn.protect_gui/get_hidden_gui!","CMD-X cannot run.","Explanation;","This game has an anti-cheat and our way of stopping it is through syn.protect_gui/get_hidden_gui.","","Run Anyway",true)
+		Stand("Your exploit does not support syn.protect_gui/get_hidden_gui!","CMD-Y cannot run.","Explanation;","This game has an anti-cheat and our way of stopping it is through syn.protect_gui/get_hidden_gui.","","Run Anyway",true)
 		repeat wait() until RunDude == true
 	end
 end
@@ -830,7 +753,7 @@ if AntiCheat.RemoveScripts then
 			v:Destroy()
 		end
 	end
-	Stand("CMD-X has to delete local scripts!","Your game may not work.","Explanation;","This game has an anticheat and our way of solving it is removing scripts.","","Run Anyway",true)
+	Stand("CMD-Y has to delete local scripts!","Your game may not work.","Explanation;","This game has an anticheat and our way of solving it is removing scripts.","","Run Anyway",true)
 	repeat wait() until RunDude == true
 end
 
@@ -1175,7 +1098,7 @@ output4.TextSize = 16
 output4.TextXAlignment = Enum.TextXAlignment.Left
 output4.TextWrapped = true
 output4.TextTruncate = Enum.TextTruncate.AtEnd
-local Hints = {"Did you know you can execute multiple commands with ';;'?","Did you know you can create a wait using timedcmd in loops?","You can find commands using 'cmds'.","You can change your prefix by doing 'prefixnew (key)'","Did you know CMD-X was created in October 2019?"}
+local Hints = {"Did you know you can execute multiple commands with ';;'?","Did you know you can create a wait using timedcmd in loops?","You can find commands using 'cmds'.","You can change your prefix by doing 'prefixnew (key)'","Did you know CMD-Y was created in October 2019?"}
 output4.Text = Hints[math.random(1,#Hints)]
 
 output5.Name = "output5"
@@ -1379,7 +1302,7 @@ opxviewertitle.BackgroundTransparency = 1
 opxviewertitle.Position = UDim2.new(0.264150947, 0, 0, 0)
 opxviewertitle.Size = UDim2.new(0, 200, 0, 22)
 opxviewertitle.Font = Enum.Font.GothamBold
-opxviewertitle.Text = "CMD-X OUTPUT-LONGER"
+opxviewertitle.Text = "CMD-Y OUTPUT-LONGER"
 opxviewertitle.TextColor3 = Color3.new(1, 1, 1)
 opxviewertitle.TextSize = 14
 
@@ -1495,7 +1418,7 @@ statviewertitle.BackgroundTransparency = 1
 statviewertitle.Position = UDim2.new(0.264150947, 0, 0, 0)
 statviewertitle.Size = UDim2.new(0, 200, 0, 22)
 statviewertitle.Font = Enum.Font.GothamBold
-statviewertitle.Text = "CMD-X STATISTICS VIEWER"
+statviewertitle.Text = "CMD-Y STATISTICS VIEWER"
 statviewertitle.TextColor3 = Color3.new(1, 1, 1)
 statviewertitle.TextSize = 14
 
@@ -1564,7 +1487,7 @@ Save.MouseButton1Down:Connect(function()
 			writestats = writestats.."\n".._.." "..v.T
 		end
 	end
-	writefile("CMD-X Stats "..math.random(1000)..".txt",tostring(writestats))
+	writefile("CMD-Y Stats "..math.random(1000)..".txt",tostring(writestats))
 end)
 
 function CreateStatLabel(cmd,times,today)
@@ -1892,7 +1815,7 @@ logsviewertitle.BackgroundTransparency = 1
 logsviewertitle.Position = UDim2.new(0.264150947, 0, 0, 0)
 logsviewertitle.Size = UDim2.new(0, 200, 0, 22)
 logsviewertitle.Font = Enum.Font.GothamBold
-logsviewertitle.Text = "CMD-X LOGS VIEWER"
+logsviewertitle.Text = "CMD-Y LOGS VIEWER"
 logsviewertitle.TextColor3 = Color3.new(1, 1, 1)
 logsviewertitle.TextSize = 14
 
@@ -1959,7 +1882,7 @@ Save2.MouseButton1Down:Connect(function()
 	for _,v in pairs(Scrollinglogs:GetChildren()) do
 		writestats2 = writestats2.."\n"..v.Text
 	end
-	writefile("CMD-X Logs "..math.random(1000)..".txt",tostring(writestats2))
+	writefile("CMD-Y Logs "..math.random(1000)..".txt",tostring(writestats2))
 end)
 
 function CreateLabel(Name, Text)
@@ -2061,16 +1984,16 @@ CMDS.commands = {
 	["hotkeyopen"] = "Changes your hotkey for opening the GUI.",
 	["hotkeyoutput"] = "Changes your hotkey for opening the output GUI.",
 	["hotkeyfocus"] = "Changes your hotkey for focusing on the cmdbar.",
-	["entercmdnew"] = "Adds a new command which runs when you first execute CMD-X.",
+	["entercmdnew"] = "Adds a new command which runs when you first execute CMD-Y.",
 	["entercmds"] = "Allows you to add entercmds.",
 	["entercmddel"] = "Deletes a command in the entercmds list.",
 	["entercmdsclr"] = "Clears the entercmds.",
 	["eightballpu"] = "Ask 8Ball a question publicly.",
 	["eightballpr"] = "Ask 8Ball a question privately.",
 	["friendjoin"] = "Joins your friends game.",
-	["support"] = "If you need support while using CMD-X use this command!",
+	["support"] = "If you need support while using CMD-Y use this command!",
 	["commands"] = "Shows this page.",
-	["advertise"] = "Help spread CMD-X by doing this cmd in game! (<3)",
+	["advertise"] = "Help spread CMD-Y by doing this cmd in game! (<3)",
 	["unadvertise"] = "()",
 	["version"] = "Shows version.",
 	["walkspeed"] = "Sets your characters walkspeed.",
@@ -2137,7 +2060,7 @@ CMDS.commands = {
 	["parts"] = "Lists parts.",
 	["bringunanchored"] = "Brings unachored parts (works best with .loop).",
 	["listunanchored"] = "Lists unanchored parts.",
-	["credits"] = "Lists credits for CMD-X.",
+	["credits"] = "Lists credits for CMD-Y.",
 	["animation"] = "Plays the AnimationID you state in num1 and speeds it up in num2. (R6 ONLY)",
 	["unanimation"] = "Stops all animations.",
 	["uninsane"] = "()",
@@ -2296,7 +2219,7 @@ CMDS.commands = {
 	["unautokey"] = "()",
 	["swimwalk"] = "Allows you to swim on land.",
 	["instances"] = "Shows you how many instances are in the game.",
-	["plugins"] = "Shows plugin GUI so you can add plugins to CMD-X.",
+	["plugins"] = "Shows plugin GUI so you can add plugins to CMD-Y.",
 	["loadcustomsclr"] = "Clears all loadcustoms.",
 	["iq"] = "Shows players IQ (RANDOM).",
 	["players"] = "Lists players in your game.",
@@ -2320,7 +2243,7 @@ CMDS.commands = {
 	["hotkeyaimbot"] = "Changes your hotkey for activating aimbot.",
 	["hotkeyesp"] = "Changes your hotkey for activating ESP.",
 	["admindetect"] = "Detects admins in the game (If the game has HDAdmin do ;admins before running the command)(SUPPORTS: HD/KOHLS)",
-	["streamermode"] = "Hides all names in games (Suitable for streamers or people showcasing CMD-X <3).",
+	["streamermode"] = "Hides all names in games (Suitable for streamers or people showcasing CMD-Y <3).",
 	["permflyspeed"] = "Fly speed is set to this every time you fly.",
 	["loopgoto"] = "Loop teleports to the player.",
 	["unloopgoto"] = "()",
@@ -2341,7 +2264,7 @@ CMDS.commands = {
 	["hotkeys"] = "Allows you to add hotkeys.",
 	["hotkeydel"] = "Deletes a hotkey in the hotkeys list.",
 	["hotkeysclr"] = "Clears the hotkeys.",
-	["changestyle"] = "Changes the style of your CMD-X refer to csinfo for more info on this command.",
+	["changestyle"] = "Changes the style of your CMD-Y refer to csinfo for more info on this command.",
 	["csinfo"] = "Lists info about changestyle/cs.",
 	["chat"] = "Forces you to chat whatever you put in str (Bypasses any mute).",
 	["curvetools"] = "Curves your tools.",
@@ -2367,7 +2290,7 @@ CMDS.commands = {
 	["bring"] = "Brings the player to you (NEED A HAT AND TOOL).",
 	["kill"] = "Kills the player (NEED A HAT AND TOOL).",
 	["give"] = "Gives the player your tool.",
-	["using"] = "Specifies that you are using CMD-X. <3",
+	["using"] = "Specifies that you are using CMD-Y. <3",
 	["playercases"] = "Lists player cases you can use in your second argument.",
 	["coronavirus"] = "Provides information about coronavirus using an API.",
 	["joindateprivate"] = "Shows players join date privately.",
@@ -2444,7 +2367,7 @@ CMDS.commands = {
 	["graphics"] = "Changes Master Graphics.",
 	["freecam"] = "Activates freecam.",
 	["unfreecam"] = "()",
-	["reload"] = "Reloads CMD-X.",
+	["reload"] = "Reloads CMD-Y.",
 	["backpack"] = "Lists tools in players backpack.",
 	["partesp"] = "Shows all items that have the name or the class of what you enter.",
 	["unpartesp"] = "()",
@@ -2521,7 +2444,7 @@ CMDS.commands = {
 	["tabs"] = "Turns tabs on or off.",
 	["changetab"] = "Changes a tab from 1-9.",
 	["debugging"] = "Allows error showing on commands.",
-	["runafter"] = "Makes CMD-X automatically re-execute on rejoin.",
+	["runafter"] = "Makes CMD-Y automatically re-execute on rejoin.",
 	["removeinchar"] = "Removes whatever you state from character.",
 	["unsitwalk"] = "()",
 	["setbackunanchored"] = "Sets back all unanchored parts to original positions.",
@@ -2586,7 +2509,7 @@ CMDS.commands = {
 	["rejoinrefresh"] = "Rejoins and places you back at the spot you were at.",
 	["forceplay"] = "Loop plays plrs audio to stop muting.",
 	["unforceplay"] = "()",
-	["migratesaves"] = "Migrates save files/backups to CMD-X.lua.",
+	["migratesaves"] = "Migrates save files/backups to CMD-Y.lua.",
 	["resetguipos"] = "Resets GUI position.",
 	["properties"] = "Lists all properties of class in Roblox using an API.",
 	["classes"] = "Lists all classes in Roblox using an API.",
@@ -2621,7 +2544,7 @@ CMDS.commands = {
 	["nameesp"] = "Runs ESP with only names.",
 	["unnameesp"] = "()",
 	["spectatepart"] = "Views part.",
-	["rejoinexecute"] = "Rejoins and re-executes CMD-X once.",
+	["rejoinexecute"] = "Rejoins and re-executes CMD-Y once.",
 	["multispam"] = "Spams strings seperated by commas.",
 	["logspam"] = "Spams any chat loggers without showing in chat.",
 	["unlogspam"] = "()",
@@ -2653,7 +2576,7 @@ CMDS.commands = {
 	["untransparentbubbles"] = "()",
 	["disableshiftlock"] = "()",
 	["robloxfromdiscordid"] = "Gets roblox account from discord id.",
-	["nilchatcmds"] = "Makes CMD-X chat commands not appear on chat.",
+	["nilchatcmds"] = "Makes CMD-Y chat commands not appear on chat.",
 	["unnilchatcmds"] = "()",
 	["thirdperson"] = "Sets your camera to third person.",
 	["firstperson"] = "Sets your camera to first person.",
@@ -2663,7 +2586,7 @@ CMDS.commands = {
 	["unrandomizechat"] = "()",
 	["retardchat"] = "Retards your chat on message posting.",
 	["unretardchat"] = "()",
-	["scriptusers"] = "Shows people currently using CMD-X.",
+	["scriptusers"] = "Shows people currently using CMD-Y.",
 	["noshow"] = "Allows you to appear off .scriptusers.",
 	["reverse"] = "Allows you to reverse your HumanoidRootParts CFrame.",
 	["maxslopeangle"] = "Changes your MaxSlopeAngle.",
@@ -2694,7 +2617,7 @@ CMDS.commands = {
 	["drawingold"] = "Uses your exploits drawing api if it has one.",
 	["nomessages"] = "Stops messages from being sent (HD,Instances).",
 	["yesmessages"] = "()",
-	["removecmd"] = "Removes command from your CMD-X temporarily.",
+	["removecmd"] = "Removes command from your CMD-Y temporarily.",
 	["spoofgrouprole"] = "Spoofs group role (only works on client scripts).",
 	["unspoofgrouprole"] = "()",
 	["nogameteleport"] = "Stops you from teleporting to other games (only works on client scripts).",
@@ -3556,8 +3479,8 @@ for i,_ in pairs(CMDS.commands) do
 	end
 end
 
-if KeepCMDXOn and syn.queue_on_teleport then
-	syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()')
+if KeepcmdyOn and syn.queue_on_teleport then
+	syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/main/Source"))()')
 end
 
 rejoining = false
@@ -3627,7 +3550,7 @@ fileext.BackgroundTransparency = 1.000
 fileext.Position = UDim2.new(0.0351015218, 0, 0.925760746, 0)
 fileext.Size = UDim2.new(0, 305, 0, 20)
 fileext.Font = Enum.Font.GothamBold
-fileext.Text = "plugins go inside CMD-X Plugins folder located in workspace"
+fileext.Text = "plugins go inside CMD-Y Plugins folder located in workspace"
 fileext.TextColor3 = Color3.fromRGB(255, 255, 255)
 fileext.TextScaled = true
 fileext.TextSize = 15.000
@@ -4157,9 +4080,9 @@ function opx(f,text)
 		end
 	else
 		if f == "*" then
-			sayremote:FireServer("[CMD-X*] "..text,"All")
+			sayremote:FireServer("[CMD-Y*] "..text,"All")
 		elseif f == "-" then
-			sayremote:FireServer("[CMD-X-] "..text,"All")
+			sayremote:FireServer("[CMD-Y-] "..text,"All")
 		end
 	end
 end
@@ -4542,7 +4465,7 @@ ManageTitleEnter.BackgroundTransparency = 1.000
 ManageTitleEnter.Position = UDim2.new(0.263266504, 0, 0.00765306223, 0)
 ManageTitleEnter.Size = UDim2.new(0, 200, 0, 32)
 ManageTitleEnter.Font = Enum.Font.GothamSemibold
-ManageTitleEnter.Text = "CMD-X EnterCMDs MANAGER"
+ManageTitleEnter.Text = "CMD-Y EnterCMDs MANAGER"
 ManageTitleEnter.TextColor3 = Color3.fromRGB(255, 255, 255)
 ManageTitleEnter.TextSize = 14.000
 
@@ -4827,16 +4750,16 @@ function useCommand.advertise()
 		local randomPlayer = cmdp:GetPlayers()[math.random(2,#cmdp:GetPlayers())]
 		cmdlp.Character.Humanoid:MoveTo(randomPlayer.Character.HumanoidRootPart.Position)
 	end
-	opx("-","Now advertising CMD-X (Thank you!)")
+	opx("-","Now advertising CMD-Y (Thank you!)")
 end
 
 function useCommand.unadvertise()
 	cmdAdvertise = false
-	opx("-","Stopped advertising CMD-X (Thank you!)")
+	opx("-","Stopped advertising CMD-Y (Thank you!)")
 end
 
 function useCommand.version()
-	opx("-","CMD-X is currently on "..ver)
+	opx("-","CMD-Y is currently on "..ver)
 end
 
 function useCommand.maxslopeangle()
@@ -5666,7 +5589,7 @@ end
 
 function useCommand.using()
 	opx("-","Said script <3")
-	sayremote:FireServer("I am using CMD-X, Version: "..ver, "All")
+	sayremote:FireServer("I am using CMD-Y, Version: "..ver, "All")
 end
 
 function useCommand.banlands()
@@ -7426,12 +7349,12 @@ function useCommand.remotespy()
 end
 
 function useCommand.playerstalker()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/projetcs/PlayerStalkerV2",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/projetcs/PlayerStalkerV2",true))()
 	opx("-","Loaded PlayerStalker")
 end
 
 function useCommand.badger()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/badger",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/badger",true))()
 	opx("-","Loaded Badger V2")
 end
 
@@ -7806,17 +7729,17 @@ end
 function useCommand.resetsaves()
 	Confirm("Default","This will reset your stats and saves.")
 	if Confirmation then
-		opx("-","Successfully reset your CMD-X.")
-		if isfile("CMD-X.lua") then
-			delfile("CMD-X.lua")
+		opx("-","Successfully reset your CMD-Y.")
+		if isfile("CMD-Y.lua") then
+			delfile("CMD-Y.lua")
 		end
 	end
 end
 
 function useCommand.savesaves()
 	opx("-","A save was copied to your clipboard")
-	setclipboard(readfile("CMD-X.lua"))
-	writefile("CMD-X.save",readfile("CMD-X.lua"))
+	setclipboard(readfile("CMD-Y.lua"))
+	writefile("CMD-Y.save",readfile("CMD-Y.lua"))
 end
 
 function useCommand.migratesaves()
@@ -7825,16 +7748,16 @@ function useCommand.migratesaves()
 		if arguments[2] then
 			if isfile(arguments[2]) then
 				opx("-","Migrated "..arguments[2].." to current saves")
-				writefile("CMD-X.lua",readfile(arguments[2]))
+				writefile("CMD-Y.lua",readfile(arguments[2]))
 			else
 				opx("*","You do not have a save by that name.")
 			end
 		else
-			if isfile("CMD-X.save") then
-				opx("-","Migrated CMD-X.save to current saves")
-				writefile("CMD-X.lua",readfile("CMD-X.save"))
+			if isfile("CMD-Y.save") then
+				opx("-","Migrated CMD-Y.save to current saves")
+				writefile("CMD-Y.lua",readfile("CMD-Y.save"))
 			else
-				opx("*","You do not have a CMD-X save.")
+				opx("*","You do not have a CMD-Y save.")
 			end
 		end
 	end
@@ -7851,8 +7774,8 @@ function useCommand.fuckoff()
 end
 
 function useCommand.reload()
-	opx("-","Reloading CMD-X...")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	opx("-","Reloading CMD-Y...")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/main/Source", true))()
 end
 
 function useCommand.console()
@@ -7929,7 +7852,7 @@ end
 function useCommand.messagebox()
 	if messageboxasync then
 		opx("-","Opened message box, "..getstring(2))
-		messageboxasync(getstring(2), "CMD-X Message", 262148)
+		messageboxasync(getstring(2), "CMD-Y Message", 262148)
 	else
 		opx("*","Your exploit does not support messageboxes!")
 	end
@@ -8810,15 +8733,15 @@ end
 
 function useCommand.runafter()
 	if arguments[2] == "on" then
-		opx("-","CMD-X will now run after rejoin")
-		KeepCMDXOn = true
-		if KeepCMDXOn and syn.queue_on_teleport then
-			syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()')
+		opx("-","CMD-Y will now run after rejoin")
+		KeepcmdyOn = true
+		if KeepcmdyOn and syn.queue_on_teleport then
+			syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/main/Source"))()')
 		end
 		updatesaves()
 	elseif arguments[2] == "off" then
-		opx("-","CMD-X will no longer run after rejoin")
-		KeepCMDXOn = false
+		opx("-","CMD-Y will no longer run after rejoin")
+		KeepcmdyOn = false
 		updatesaves()
 	else
 		opx("*","2 arguments are required!")
@@ -9699,7 +9622,7 @@ function useCommand.plugin()
 		lcNS = getstring(2)
 		for i,v in pairs(Plugins) do
 			if Plugins[i].Name == lcNS and Plugins[i].Status then
-				loadstring(readfile("CMD-X Plugins/"..Plugins[i].File))()
+				loadstring(readfile("CMD-Y Plugins/"..Plugins[i].File))()
 			end
 		end
 	else
@@ -9990,7 +9913,7 @@ function useCommand.audiologgersave()
 	local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 	local filename = GetName.Name.." audiolog"..math.random(1,10000)
 	audioIds = game:GetService("HttpService"):JSONEncode(audiologgerids)
-	writefile(filename..".CMD-X", audioIds)
+	writefile(filename..".CMD-Y", audioIds)
 end
 
 function useCommand.antilag()
@@ -10149,7 +10072,7 @@ function useCommand.singinfo()
 	Step 5: Compress the lines to avoid whitespace errors\
 	Step 6: Put your compressed text into a raw data uploading site such as pastebin or hastebin\
 	Step 7: Insert the link into the sing command\
-	To see a sample of what to do, visit: https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/sing/")
+	To see a sample of what to do, visit: https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/sing/")
 end
 
 stopSingMid = false
@@ -10168,7 +10091,7 @@ function useCommand.sing()
 		["diamonds"] = true
 	}
 	if check[string.lower(arguments[2])] then
-		getSong = "https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/sing/"..string.lower(arguments[2])
+		getSong = "https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/sing/"..string.lower(arguments[2])
 	else
 		getSong = arguments[2]
 	end
@@ -10316,17 +10239,17 @@ function useCommand.plugins()
 		dropkick:ClearAllChildren()
 		opx("-","Plugins loaded")
 		RoundHold.Visible = true
-		for num,file in pairs(listfiles("CMD-X Plugins")) do
+		for num,file in pairs(listfiles("CMD-Y Plugins")) do
 			local PluginExists = false
 			local PluginNum = 0
 			for i,v in pairs(Plugins) do
-				if v.Name == file:split("CMD-X Plugins")[2]:split(".")[1]:sub(2,#file:split("CMD-X Plugins")[2]:split(".")[1]) then
+				if v.Name == file:split("CMD-Y Plugins")[2]:split(".")[1]:sub(2,#file:split("CMD-Y Plugins")[2]:split(".")[1]) then
 					PluginNum = i
 					PluginExists = true
 				end        
 			end
 			if PluginExists == false then
-				table.insert(Plugins, {Name = file:split("CMD-X Plugins")[2]:split(".")[1]:sub(2,#file:split("CMD-X Plugins")[2]:split(".")[1]), File = file:split("CMD-X Plugins")[2]:sub(2,#file:split("CMD-X Plugins")[2]), Status = false})    
+				table.insert(Plugins, {Name = file:split("CMD-Y Plugins")[2]:split(".")[1]:sub(2,#file:split("CMD-Y Plugins")[2]:split(".")[1]), File = file:split("CMD-Y Plugins")[2]:sub(2,#file:split("CMD-Y Plugins")[2]), Status = false})    
 				PluginNum = #Plugins
 			end
 			PluginFile(Plugins[PluginNum].Name,Plugins[PluginNum].File,Plugins[PluginNum].Status,PluginNum)
@@ -10344,7 +10267,7 @@ end
 
 function useCommand.antiwrldsgui()
 	opx("-","antiwrldsGUI loading")
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/antiwrldsgui/main'),true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/antiwrldsgui/main'),true))()
 	opx("-","antiwrldsGUI loaded")
 end
 
@@ -10578,7 +10501,7 @@ function useCommand.retardchat()
 		opx("*", "Retard chat is already enabled.")
 		return
 	end
-	local stringka = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/unicode"):split(",")
+	local stringka = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/unicode"):split(",")
 	_G.sssoldhook = mt.__namecall
 	setreadonly(mt, false)
 	mt.__namecall = newcclosure(function(event, ...)
@@ -11560,7 +11483,7 @@ function ExeCmdLegal(serverblacklisted)
 end
 
 function CheckIfTrue()
-	Stand("You have been server-blacklisted!","Please join another server to use CMD-X again.","","","","Alright",false)
+	Stand("You have been server-blacklisted!","Please join another server to use CMD-Y again.","","","","Alright",false)
 end
 
 for i,v in pairs(cmdp:GetPlayers()) do
@@ -11952,7 +11875,7 @@ ManageTitleHotkey.BackgroundTransparency = 1.000
 ManageTitleHotkey.Position = UDim2.new(0.263266504, 0, 0.00765306223, 0)
 ManageTitleHotkey.Size = UDim2.new(0, 200, 0, 32)
 ManageTitleHotkey.Font = Enum.Font.GothamSemibold
-ManageTitleHotkey.Text = "CMD-X Hotkey MANAGER"
+ManageTitleHotkey.Text = "CMD-Y Hotkey MANAGER"
 ManageTitleHotkey.TextColor3 = Color3.fromRGB(255, 255, 255)
 ManageTitleHotkey.TextSize = 14.000
 
@@ -12568,7 +12491,7 @@ function useCommand.scriptusers()
 				end
 			end
 	   end
-		opx("-","Now showing users using CMD-X")
+		opx("-","Now showing users using CMD-Y")
 		opxL("Using ["..xUsingCount.."]",xUsing)
 	else
 		opx("*","Turn noshow off to see other users")
@@ -13046,7 +12969,7 @@ function useCommand.playercases()
 	enemy - Chooses a player that is not on the same team as you\
 	near - Chooses a player that is close to you\
 	far - Chooses a player that is not close to you\
-	using - Chooses a player that is using CMD-X")
+	using - Chooses a player that is using CMD-Y")
 end
 
 function useCommand.nomessages()
@@ -13168,15 +13091,15 @@ function useCommand.ungod()
 end
 
 function useCommand.randomchat()
-	local tbl1 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/1"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--english words
-	local tbl2 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/2"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl1
-	local tbl3 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/3"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl2
-	local tbl4 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/4"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl3
-	local tbl5 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/5"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl5
-	local tbl6 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/6"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl4
-	local tbl7 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/7"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl6
-	local tbl8 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/8"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl7
-	local tbl9 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/9"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl8
+	local tbl1 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/1"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--english words
+	local tbl2 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/2"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl1
+	local tbl3 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/3"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl2
+	local tbl4 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/4"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl3
+	local tbl5 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/5"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl5
+	local tbl6 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/6"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl4
+	local tbl7 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/7"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl6
+	local tbl8 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/8"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl7
+	local tbl9 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/9"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl8
 	local r1 = math.random(1,#tbl1)
 	local r2 = math.random(1,#tbl2)
 	local r3 = math.random(1,#tbl3)
@@ -13361,7 +13284,7 @@ function useCommand.credits()
 	Dev - "..DevCords[3].."\
 	Intro Audio - liv#2001\
 	Intro Audio 2 - Adderalled\
-	Thank you to IY for some functions inside CMD-X\
+	Thank you to IY for some functions inside CMD-Y\
 	Thank you to Bannable#5005 for animpack\
 	Thank you to 6033#6033 for old-aimbot")
 end
@@ -13584,7 +13507,7 @@ function useCommand.directjoin()
 	end
 end
 
-pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/depthoffield",true))() end)
+pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/depthoffield",true))() end)
 -- Thanks to MrAsyncRoblox on github, full credits.
 
 function useCommand.timedcmd()
@@ -13601,15 +13524,15 @@ end
 
 function useCommand.randomos()
 	opx("-","Changed your OS to a random string")
-	local tbl1 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/1"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--english words
-	local tbl2 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/2"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl1
-	local tbl3 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/3"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl2
-	local tbl4 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/4"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl3
-	local tbl5 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/5"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl5
-	local tbl6 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/6"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl4
-	local tbl7 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/7"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl6
-	local tbl8 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/8"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl7
-	local tbl9 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/9"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl8
+	local tbl1 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/1"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--english words
+	local tbl2 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/2"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl1
+	local tbl3 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/3"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl2
+	local tbl4 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/4"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl3
+	local tbl5 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/5"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl5
+	local tbl6 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/6"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl4
+	local tbl7 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/7"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl6
+	local tbl8 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/8"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl7
+	local tbl9 = game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/randomchat/9"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl8
 	local r1 = math.random(1,#tbl1)
 	local r2 = math.random(1,#tbl2)
 	local r3 = math.random(1,#tbl3)
@@ -14178,7 +14101,7 @@ end
 
 function useCommand.spotify()
     opx("-","Spotify Premium is needed to run Spotify Presence")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/projetcs/spotifypresence"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/projetcs/spotifypresence"))()
 end
 
 function useCommand.friendjoin()
@@ -14343,7 +14266,7 @@ end
 
 function useCommand.sentinelexplorer()
 	opx("-","Loading SENTINEL DEX")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/sdex", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/master/others/sdex", true))()
 	opx("-","Loaded SENTINEL DEX")
 end
 
@@ -15324,7 +15247,7 @@ function useCommand.rejoinexecute()
 	syn.queue_on_teleport([[
 		game:GetService('ReplicatedFirst'):RemoveDefaultLoadingScreen()
 		repeat wait(.1) until game:GetService('Players').LocalPlayer
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/main/Source", true))()
 	]])
 	opx("-","Rejoining game")
 	game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, cmdp)
@@ -15882,7 +15805,7 @@ function useCommand.rejoinrefreshexecute()
 			end)
 			playeradded:Disconnect()
 		end)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-Y/CMD-Y/main/Source", true))()
 	]], c.X, c.Y, c.Z))
 	opx("-","Rejoining game")
 	game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, cmdp)
@@ -16209,7 +16132,7 @@ function useCommand.logchat()
 	if arguments[2] then
 		msg = getstring(2)
 	else
-		msg = string.rep("CMD-X Gang", 100)
+		msg = string.rep("CMD-Y Gang", 100)
 	end
 	require(cmdlp.PlayerScripts.ChatScript.ChatMain).MessagePosted:fire(msg)
 	opx("-","Chatted to logs")
@@ -16220,7 +16143,7 @@ function useCommand.logspam()
 	if arguments[2] then
 		msg = getstring(2)
 	else
-		msg = string.rep("CMD-X Gang", 100)    
+		msg = string.rep("CMD-Y Gang", 100)    
 	end
 	mostSpam = game:GetService("RunService").Heartbeat:Connect(function()
 		require(cmdlp.PlayerScripts.ChatScript.ChatMain).MessagePosted:fire(msg)
@@ -17136,7 +17059,7 @@ end)
 if not AntiCheat.PrintingOff then
 	local StarterGui = game:GetService("StarterGui")
 	StarterGui:SetCore("ChatMakeSystemMessage", {
-		Text = "Welcome to CMD-X, "..cmdlp.Name..".";
+		Text = "Welcome to CMD-Y, "..cmdlp.Name..".";
 		Color = Color3.fromRGB(50, 50, 50);
 		Font = Enum.Font.SourceSansBold;TextSize = 25
 	})
@@ -17425,7 +17348,7 @@ end
 
 for _,v in pairs(cmdp:GetPlayers()) do
 	if Devs[v.Name] then
-		opx("-",v.Name.." is in your server ("..Devs[v.Name].." of CMD-X)")
+		opx("-",v.Name.." is in your server ("..Devs[v.Name].." of CMD-Y)")
 		RGBDev(v.Name)
 	elseif Donors[v.Name] then
 		opx("-",v.Name.." is in your server ("..Tier[Donors[v.Name]].Tag..")")
@@ -17435,7 +17358,7 @@ end
 
 cmdp.PlayerAdded:Connect(function(v)
 	if Devs[v.Name] then
-		opx("-",v.Name.." is in your server ("..Devs[v.Name].." of CMD-X)")
+		opx("-",v.Name.." is in your server ("..Devs[v.Name].." of CMD-Y)")
 		RGBDev(v.Name)
 	elseif Donors[v.Name] then
 		opx("-",v.Name.." is in your server ("..Tier[Donors[v.Name]].Tag..")")
